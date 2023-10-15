@@ -23,10 +23,8 @@ html, body { height: 100%; }
                 let config = {
             fps: 10,
             qrbox: {width: 450, height: 450},
-            rememberLastUsedCamera: true,
             // Only support camera scan type.
-            supportedScanTypes: [Html5QrcodeScanType.SCAN_TYPE_CAMERA],
-            formatsToSupport: [ Html5QrcodeSupportedFormats.CODE_128 ]
+            supportedScanTypes: [Html5QrcodeScanType.SCAN_TYPE_CAMERA]
         };
 
         let html5QrcodeScanner = new Html5QrcodeScanner(
